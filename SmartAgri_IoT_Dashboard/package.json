@@ -1,0 +1,23 @@
+{
+  "name": "smart-agri-iot-dashboard",
+  "version": "1.0.0",
+  "description": "Smart Agriculture IoT Monitoring System with Virtual Hardware Simulator & Remote Demo Engine",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js",
+    "test:verbose": "node --test --test-reporter=spec tests/*.test.js"
+  },
+  "keywords": [
+    "iot",
+    "smart-agriculture",
+    "dashboard",
+    "remote-demo",
+    "simulation",
+    "esp32",
+    "lora"
+  ],
+  "author": "Antigravity AI",
+  "license": "MIT"
+}
